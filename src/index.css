@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;900&display=swap');
+
+@theme {
+  --font-raleway: "Raleway", sans-serif;
+  --color-brand: #7C5DFF;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-raleway);
+    font-weight: 500;
+    @apply bg-[#0F1014] text-neutral-100 antialiased;
+  }
+}
